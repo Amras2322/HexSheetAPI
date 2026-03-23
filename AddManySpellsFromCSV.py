@@ -134,7 +134,7 @@ def process_spell_row(row):
 
 
 def main():
-    csv_file = "/home/keegan/Documents/Python/HexSheetAPI/Spells.csv"
+    csv_file = "./Spells.csv"
 
     try:
         with open(csv_file, "r", encoding="utf-8") as file:
