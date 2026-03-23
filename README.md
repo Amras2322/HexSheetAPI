@@ -40,11 +40,8 @@ API_KEY=your_api_key_here
 - **`CheckRateLimit.py`**: Makes a lightweight HTTP request to check your current API rate limit status, remaining quota, and reset time headers.
 
 ## Usage Example
+The **`AddManySpellsFromCSV.py`** script was written to be used with spells lists from [5e.tools](https://5e.tools/spells).
+Use the filters to show the spells you wish to export/import to hexsheet, then click "Table View"
+<img width="1173" height="566" alt="Screenshot_20260323_011543-1" src="https://github.com/user-attachments/assets/4f564deb-a67e-4b4a-9b53-3290ae0b8a5f" />
+From the table view, click the button to download the spell list as a CSV. The script should be able to process this file.
 
-```bash
-# Fetch spells and save to spells.json
-python GetSpellFromHomebrew.py
-
-# Check rate limit
-python CheckRateLimit.py
-```
